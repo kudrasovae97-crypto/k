@@ -18,7 +18,7 @@ body {
   width: 330px;
   height: 530px;
   border-radius: 15px;
-  box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px 10px #000000;
 }
 .player input[type=range] {
   -webkit-appearance: none !important;
@@ -76,7 +76,7 @@ body {
   left: 50%;
   top: 50px;
   transform: translateX(-50%);
-  box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px 10px #000000;
  
 }
 .player .cover img {
@@ -114,14 +114,15 @@ body {
   
 .player .btn-box i {
   font-size: 24px;
-  color: white;
+  color: #0099FF;
   margin: 0 30px;
   cursor: pointer;
 }
   
 .player .btn-box i.active {
-  color: RoyalBlue;
+  color:white ;
 }
+
 .player .volume-box {
   display: none;
   position: absolute;
@@ -147,7 +148,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
-  color: #72646f;
+  color: #e4afe4;
 }
   
 .player .volume-box .volume-up::selection {
@@ -224,6 +225,4 @@ body {
 }
   
 .player .music-box .pause i {
-  font-size: 32px;
-  transform: translate(-50%, -50%);
-}
+  font-size:
